@@ -1,0 +1,130 @@
+.pricing-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.pricing-container h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.plans-heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+/* img{
+    margin-left: 84px;
+} */
+.plans{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.standard, .advanced, .premium{
+    width: 25%;
+    background-color: rgb(226, 221, 221);
+    padding: 8px 8px;
+    box-shadow: 5px 10px rgb(245, 241, 241);
+    
+}
+.standard h4{
+    text-align: center;
+}
+.advanced h4{
+    text-align: center;
+}
+.premium h4{
+    text-align: center;
+}
+/* .abc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* .list-items{
+    
+} */
+
+@media (max-width: 765px){
+
+    .standard, .advanced, .premium{
+    width: 25%;
+    background-color: rgb(226, 221, 221);
+    padding: 4px 4px;
+    box-shadow: 5px 10px rgb(245, 241, 241);
+    
+}
+.abc{
+    text-align: left;
+    margin-left: 0px !important; 
+}
+.list-items{
+    margin-left: 0px;
+}
+
+}
+@media (max-width: 505px){
+    .plans{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .standard, .advanced, .premium{
+        width: 55%;
+        background-color: rgb(226, 221, 221);
+        padding: 4px 4px;
+        box-shadow: 5px 10px rgb(245, 241, 241);
+        margin-bottom: 24px;
+        height: 220px;
+        
+    }
+    .abc{
+        text-align: left;
+        margin-left: 0px !important; 
+    }
+    .list-items{
+        margin-left: 0px;
+    }
+}
+.testimonial-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: top;
+    background-color: rgb(226, 221, 221);
+    margin: 20px 0px;
+    padding: 24px 0px;
+}
+.heading{
+    text-align: center;
+    margin-top: 120px;
+}
+.user-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+}
+.user-one img{
+    margin-right: 20px;
+}
+
+.user-one p{
+    color: black;
+}
+@media (max-width: 650px){
+    .testimonial-container{
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .user-one{
+        width: 80%;
+    }
+}

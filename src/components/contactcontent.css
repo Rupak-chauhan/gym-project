@@ -1,0 +1,79 @@
+.contact-container{
+    padding: 20px 10px;
+}
+.contact-container h1{
+    margin-bottom: 80px;
+}
+.call-container, .mail-container, .address-container{
+    margin-bottom: 8px;
+    margin-left: 10%;
+}
+
+.call-container a{
+    margin-right: 8px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.mail-container a{
+    margin-right: 8px;
+    text-decoration: none;
+    font-size: 24px;
+}
+.address-container a{
+    margin-right: 8px;
+    text-decoration: none;
+    font-size: 24px;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.contact-form form input{
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    border-width: 3px;
+    border-color: black;
+}
+.contact-form form textarea{
+    border-radius: 5px;
+    margin-bottom: 6px;
+    border-width: 3px;
+    border-color: black;
+}
+.contact-form form button{
+    width: 40%;
+    background-color: red;
+    height: 40px;
+    border-radius: 3px;
+    border-width: 2px;
+    border-color: black;
+}
+
+@media (min-width: 750px){
+    .contact-container{
+        display: flex;
+        align-items: flex-start;
+        padding: 30px 40px;
+    }
+    .contact-form{
+        width: 100%;
+        margin-top: -54px;
+        margin-left: 40px;
+    }
+    .contact-form form{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;    
+   }
+    .contact-form form input{
+        width: 100%;
+        
+    }
+    .contact-form form button{
+        width: 30%;
+        border-radius: 10%;
+    }
+}

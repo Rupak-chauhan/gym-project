@@ -1,0 +1,61 @@
+.course-container{
+    display: flex;
+    flex-flow: wrap;
+    width: 80%;
+    margin: auto;
+    padding: 40px 40px;
+}
+.weight-lifting, .kettle, .AbsWorkout, .gymnastic, .running, .belly{
+    width: 20%;
+    padding: 28px 12px;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(226, 221, 221);
+    margin: auto;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    box-shadow: 5px 10px rgb(245, 241, 241);
+}
+@media (max-width:720px){
+    .weight-lifting, .kettle, .AbsWorkout, .gymnastic, .running, .belly{
+        width: 25%;
+    }
+}
+@media (max-width:720px){
+    .weight-lifting, .kettle, .AbsWorkout, .gymnastic, .running, .belly{
+        width: 60%;
+    }
+}
+
+.expert-view{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.expert-view img{
+    margin-left: 400px;
+    height: 100px;
+}
+.content{
+    width: 50%;
+}
+.content h1,p{
+    color: red;
+}
+@media (max-width:1100px){
+    .expert-view{
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+    }
+    .expert-view img{
+        margin-left: 0px;
+    }
+    .content{
+        width: 90%;
+    }
+}
