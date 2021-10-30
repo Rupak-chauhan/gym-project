@@ -4,7 +4,7 @@ import './Ourservicescontent.css';
 const OurServicesContent = () =>{
     return(
         <div class="service-container">
-            <div class="services_content-group">
+            <div class="services_content-group" data-aos="fade-right">
             
             <p class="services_content-para">
             <h2>NOISE FREE ENVIRONMENT</h2>
@@ -22,7 +22,7 @@ const OurServicesContent = () =>{
             <img class="service-img1" src="../image/boy.jpg" alt="pic" height="160px" width="280px"/>
             </div>
 
-            <div class="services_content-group2">
+            <div class="services_content-group2" data-aos="zoom-in-up">
             
             <p class="services_content-para">
             <h2>ALWAYS CLEAN AND</h2>
@@ -40,7 +40,7 @@ const OurServicesContent = () =>{
             <img class="service-img2" src="../image/boy.jpg" alt="pic" height="160px" width="280px"/>
             </div>
 
-            <div class="services_content-group3">
+            <div class="services_content-group3" data-aos="fade-left">
             
             <p class="services_content-para">
             <h2>ALWAYS AVAILABLE MENTORS TO</h2>

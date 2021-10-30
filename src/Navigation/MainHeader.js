@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaHome, FaInfoCircle, FaWpforms, FaServicestack } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import BackdropComponent from "./BackdropComponent";
 import './MainHeader.css';
@@ -22,15 +23,19 @@ const MainHeader = props => {
             <nav class="mobile-nav">
             <ul class="mobile-nav_items">
                 <li class="mobile-nav_item">
+                    <FaHome style={{color:"purple", fontSize:"24", marginRight:'12px'}}/>
                 <NavLink to="/" exact>Home</NavLink>
                 </li>
                 <li class="mobile-nav_item">
+                    <FaInfoCircle style={{color:"purple", fontSize:"24", marginRight:'12px'}}/>
                 <NavLink to="/aboutus">About-Us</NavLink>
                 </li>
                 <li class="mobile-nav_item">
-                <NavLink to="/aboutus">Services</NavLink>
+                    <FaServicestack style={{color:"purple", fontSize:"24", marginRight:'12px'}}/>
+                <NavLink to="/services">Services</NavLink>
                 </li>
                 <li class="mobile-nav_item">
+                    <FaWpforms style={{color:"purple", fontSize:"24", marginRight:'12px'}}/>
                 <NavLink to="/contactus">Contact-Us</NavLink>
                 </li>
             </ul>

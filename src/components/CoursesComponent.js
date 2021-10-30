@@ -8,7 +8,7 @@ const CoursesComponent = () =>{
             <h1 style={{textAlign:'center', marginTop:'50px'}}>OUR COURSES</h1>
         <div className="course-container">
             
-            <div className="weight-lifting">
+            <div className="weight-lifting" data-aos="fade-right">
                 <FaWeight style={{color:'red', fontSize:'34px'}}/>
                 <h4>Lorem Ipsum</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id blandit diam, 
@@ -16,7 +16,7 @@ const CoursesComponent = () =>{
                         In tortor nunc.
                 </p>
             </div>
-            <div className="kettle">
+            <div className="kettle" data-aos="zoom-in-up">
             <FaWeight style={{color:'red', fontSize:'34px'}}/>
                 <h4>Lorem Ipsum</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id blandit diam, 
@@ -24,28 +24,28 @@ const CoursesComponent = () =>{
                         In tortor nunc.
                 </p>
             </div>
-            <div className="AbsWorkout">
+            <div className="AbsWorkout" data-aos="fade-left">
             <FaWeight style={{color:'red', fontSize:'34px'}}/>
                 <h4>Lorem Ipsum</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id blandit diam, id vulputate orci. 
                         In tortor nunc.
                 </p>
             </div>
-            <div className="gymnastic">
+            <div className="gymnastic" data-aos="fade-right">
             <FaWeight style={{color:'red', fontSize:'34px'}}/>
                 <h4>Lorem Ipsum</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id blandit diam, id vulputate orci. 
                         In tortor nunc.
                 </p>
             </div>
-            <div className="running">
+            <div className="running" data-aos="zoom-in-up">
             <FaWeight style={{color:'red', fontSize:'34px'}}/>
                 <h4>Lorem Ipsum</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id blandit diam, id vulputate orci. 
                         In tortor nunc.
                 </p>
             </div>
-            <div className="belly">
+            <div className="belly" data-aos="fade-right">
             <FaWeight style={{color:'red', fontSize:'34px'}}/>
                 <h4>Lorem Ipsum</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id blandit diam, id vulputate orci. 
@@ -55,7 +55,7 @@ const CoursesComponent = () =>{
         </div>
 
         <div className="expert-view">
-            <div className="content">
+            <div className="content" data-aos="flip-right" data-aos-duration="1500">
             <h1>EXPERT COACHES</h1>
             <p>Learn all courses with our team of expert coaches.
             Learn all courses with our team of expert coaches.Learn all courses with our team of expert coaches.

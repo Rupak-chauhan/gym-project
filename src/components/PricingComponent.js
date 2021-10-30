@@ -4,7 +4,7 @@ import './Pricing.css';
 const PricingComponent = () =>{ 
     return(
         <React.Fragment>
-        <div className="pricing-container">
+        <div className="pricing-container" data-aos="zoom-in">
             <h1>PRICING PLANS(per month)</h1>
             <div className="plans">
                 <div className="standard">

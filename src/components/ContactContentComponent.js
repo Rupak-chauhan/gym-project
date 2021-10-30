@@ -21,12 +21,12 @@ const ContactContentComponent = () =>{
                 </div>
             </div>
             <div class="contact-form">
-                <form>
+                <form data-aos="zoom-in">
                     <input type="text" name="uname" id="uname" placeholder="Your Name" />
                     <input type="tel" name="unumber" id="unumber" placeholder="Your Mob. Number" />
                     <input type="email" name="umail" id="umail" placeholder="Your e-mail" />
                     <textarea rows="6" name="message" placeholder="Ask Your Question" id="umessage" />
-                    <button role="button" type="submit">SUBMIT FORM</button>
+                    <button role="button" type="submit" data-aos="flip-right">SUBMIT FORM</button>
                 </form>
             </div>
             
